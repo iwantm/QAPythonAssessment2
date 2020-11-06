@@ -135,10 +135,19 @@ def four(input1, input2):
 
 def five():
     list = []
-    for i in range(0, 5):
-        list.append(randint(99, 200))
+    while len(list) != 5:
+        num = randint(99, 200)
+        if num % 2 == 0:
+            list.append(num)
+    print(list)
     return list
 
+
+five()
+five()
+five()
+five()
+five()
 
 # <QUESTION 6>
 
