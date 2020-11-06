@@ -37,7 +37,6 @@ def one(input):
     return output
 
 
-one('The')
 # <QUESTION 2>
 
 #  Write a function which returns the boolean True if the input is only divisible by one and itself.
@@ -139,15 +138,8 @@ def five():
         num = randint(99, 200)
         if num % 2 == 0:
             list.append(num)
-    print(list)
     return list
 
-
-five()
-five()
-five()
-five()
-five()
 
 # <QUESTION 6>
 
